@@ -94,7 +94,7 @@ const App = () => {
       .then((result) => {
         console.log("handleSubmit::", result.data);
         setText(result.data.text);
-        callChatGPT(result.data.text);
+        // callChatGPT(result.data.text);
       });
   };
 
